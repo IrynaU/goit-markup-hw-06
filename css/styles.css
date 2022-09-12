@@ -980,7 +980,8 @@ color: var(--primary-text-color-theme-light);
 
 .modal-form-check:checked + .modal-form-own-checkbox {
   background-color: var(--secondary-text-color-theme-light);
-  border-color: var(--secondary-text-color-theme-light);
+  border: none;
+  transition: background-color var(--transition-dur-and-func);
 }
 
 .modal-form-check:checked + .modal-form-own-checkbox .modal-form-own-checkbox-icon {
@@ -988,7 +989,8 @@ color: var(--primary-text-color-theme-light);
 }
 
 /* .modal-form-check:focus + .modal-form-own-checkbox {
-  box-shadow: 0 0 0 2px rgba(0, 0, 255, 0.5); 
+  background-color: var(--secondary-text-color-theme-light);
+  border: none;
 } */
 
 .modal-form-submit {
