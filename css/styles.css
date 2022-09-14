@@ -996,8 +996,7 @@ color: var(--primary-text-color-theme-light);
 }
 
 .modal-form-check:focus + .modal-form-own-checkbox {
- background-color: var(--secondary-text-color-theme-light);
- border: none;
+ border-color: var(--secondary-text-color-theme-light);
  transition: var(--transition-dur-and-func);
 }
 
